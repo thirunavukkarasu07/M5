@@ -167,28 +167,30 @@ Write C program for the below pyramid string pattern. Enter a string: PROGRAM En
 
 int main() {
     char str[100];
-    int rows, i, j, len;
-    printf("Enter a string: ");
-    scanf("%s", str);
+    int rows;
 
-    printf("Enter number of rows: ");
+    scanf("%s", str);
     scanf("%d", &rows);
 
-    len = strlen(str);
-    for (i = 1; i <= rows; i++) {
-        for (j = 0; j < i; j++) {
-            printf("%c ", str[j % len]); 
+    for (int i = 0; i < rows; i++) {
+        for (int k = 0; k < rows - i - 1; k++) {
+            printf("  ");
+        }
+        for (int j = 0; j <= i; j++) {
+            printf("%s ", str);
         }
         printf("\n");
     }
 
     return 0;
 }
+
 ```
 
  ## OUTPUT
 
- ![Screenshot 2025-04-27 150554](https://github.com/user-attachments/assets/21d9c195-7008-44ec-bb75-94dfc68a6874)
+ ![image](https://github.com/user-attachments/assets/010bd733-2aa2-4453-965d-b2065607118e)
+
 
 
 ## RESULT
@@ -208,16 +210,21 @@ Write a c program to read and display an array of any 6 integer elements using p
 
 ## ALGORITHM
 Step 1: Start the program.
+
 Step 2: Declare the following:
-•	Integer variable i for iteration.
-•	Integer variable n to store the number of elements.
-•	Integer array arr[10] to hold up to 10 elements.
-•	Integer pointer parr and initialize it to point to the array arr.
+    Integer variable i for iteration.
+	Integer variable n to store the number of elements.
+	Integer array arr[10] to hold up to 10 elements.
+	Integer pointer parr and initialize it to point to the array arr.
+
 Step 3: Read the value of n (number of elements) from the user.
+
 Step 4: Loop from i = 0 to i < n:
-•	Read an integer value and store it in the address parr + i using pointer arithmetic.
+	Read an integer value and store it in the address parr + i using pointer arithmetic.
+
 Step 5: Loop from i = 0 to i < n:
-•	Print the element at *(parr + i) using pointer dereferencing.
+	Print the element at *(parr + i) using pointer dereferencing.
+
 Step 6: End the program.
 
 ## PROGRAM
