@@ -137,7 +137,7 @@ int main() {
 
 ## OUTPUT
 
-![Screenshot 2025-04-27 150511](https://github.com/user-attachments/assets/2d31890a-0f6d-4dc5-a58e-98352a3b6d0a)
+![image](https://github.com/user-attachments/assets/0d7de50d-74b2-4ebb-8b21-3ddf28b5bd4a)
 
  
  
@@ -189,7 +189,8 @@ int main() {
 
  ## OUTPUT
 
- ![image](https://github.com/user-attachments/assets/010bd733-2aa2-4453-965d-b2065607118e)
+ ![image](https://github.com/user-attachments/assets/48689e9c-9846-4192-8a9c-4da42acf7644)
+
 
 
 
